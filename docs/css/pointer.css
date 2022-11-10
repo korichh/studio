@@ -1,0 +1,16 @@
+@media (pointer: fine) {
+    a,
+    button,
+    ._isButton {
+        cursor: pointer;
+    }
+}
+
+@media (pointer: coarse) {
+    a,
+    button,
+    ._isButton {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
